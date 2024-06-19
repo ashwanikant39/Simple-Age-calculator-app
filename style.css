@@ -1,0 +1,63 @@
+html {
+    padding: 0px;
+    margin: 0px;
+    /* background-color: rgb(72, 69, 69); */
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .button {
+    /* display: flex; */
+    justify-content: center;
+  }
+  .button button {
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  input {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+  }
+  #box {
+    align-items: center;
+    background-color: rgb(230, 218, 218);
+    padding: 1px 10px;
+    border-radius: 10px;
+  }
+  #box p {
+    font-size: 25px;
+  }
+  #age{
+    /* margin-top: 100px; */
+    align-items: center;
+  }
+  .mainBtn{
+    display: flex;
+    justify-content: center;
+  }
+  #age{
+    /* color: red;
+    padding: 25px;
+    background-color: rgb(230, 218, 218);
+    padding: 1px 10px;
+    border-radius: 10px;
+    margin-top: 50px; */
+
+
+  }
+  .age1{
+    /* color: red; */
+    /* padding: 25px; */
+    background-color: rgb(230, 218, 218);
+    padding: 1px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+  }
+ 
