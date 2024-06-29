@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Age calculator</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="first" id="box">
-          <p>Select current date</p>
-          <input type="date" id="cDate" />
-        </div>
-  
-        <div class="second" id="box">
-          <p>Select your birth</p>
-          <input type="date" id="bDate" />
-        </div>
-      </div>
-      <div class="mainBtn">
-        <div class="button">
-          <button onclick="output()">Show output</button>
-            <div class="age1">
-              <span id="age"></span>
-            </div>
-      
-    </div>
+      <div class="first" id="box">
+        <p>Select current date</p>
+        <input type="date" id="cDate" />
       </div>
 
+      <div class="second" id="box">
+        <p>Select your birth</p>
+        <input type="date" id="bDate" />
+      </div>
+    </div>
+    
+    <div class="mainBtn">
+      <div class="button">
+        <button onclick="output()">Show output</button>
+        <div class="age1">
+          <span id="age"></span>
+        </div>
+      </div>
+    </div>
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
