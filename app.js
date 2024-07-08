@@ -37,7 +37,8 @@ function output() {
     month = cMonth - bMonth;
   }
   if (cYear < bYear) {
-    document.write("You can't enter future date in birth date***");
+    reurn1.innerText =("You can't enter future date in birth date***") ;
+    // document.write("You can't enter future date in birth date***");
   } else {
     var year = cYear - bYear;
   }
